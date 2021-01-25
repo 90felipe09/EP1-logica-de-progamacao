@@ -16,3 +16,10 @@
   [relation]
   (first (vals relation))
   )
+
+(defn getRelationshipElements
+  [rel]
+  (reduce
+    (fn [acc item]
+      (into acc [(getMapper item) (getMapped item)]))
+    #{} rel))
