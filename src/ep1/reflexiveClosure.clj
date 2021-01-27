@@ -1,5 +1,5 @@
-(ns test.reflexiveClosure (:gen-class))
-(require '[test.relationUtils :as relationUtils])
+(ns ep1.reflexiveClosure (:gen-class))
+(require '[ep1.relationUtils :as relationUtils])
 
 (defn reflexiveRelations
   "Given relation, returns the reflexive relations for it's mapper and mapped"

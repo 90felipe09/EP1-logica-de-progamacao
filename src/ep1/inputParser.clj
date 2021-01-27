@@ -1,5 +1,5 @@
-(ns test.inputParser (:gen-class))
-(require '[test.relationUtils :as relationUtils])
+(ns ep1.inputParser (:gen-class))
+(require '[ep1.relationUtils :as relationUtils])
 
 (defn splitCSV 
   "Receive string in csv format and returns 2-uples for each row"

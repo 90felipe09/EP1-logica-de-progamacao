@@ -1,4 +1,4 @@
-(ns test.relationUtils (:gen-class))
+(ns ep1.relationUtils (:gen-class))
 
 (defn createRelationshipElement
   "Receives a 2-uple and returns a map"
