@@ -1,3 +1,16 @@
+# Como executar
+Pré-requisito: lein está instalado.
+
+Comando: lein run nome_do_arquivo.csv
+
+Exemplo: lein run resources/input.csv
+
+Há 3 arquivos de teste:
+
+- desconexo.csv : uma relação exemplo em que a relação consiste de dois grafos disconexos.
+- input.csv : uma relação que consiste de 3 elementos ligados.
+- unitario.csv : uma relação de 4 elementos que mapeiam reflexivamente sobre si.
+
 # anotações
 
 Clojure executa forms, código que converge para um valor, um código que funciona.
